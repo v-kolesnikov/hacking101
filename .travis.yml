@@ -4,4 +4,7 @@ compiler:
   - clang
   - gcc
 
-script: true
+script:
+  - cd build
+  - cmake ..
+  - make
